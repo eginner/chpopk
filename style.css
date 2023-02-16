@@ -52,3 +52,22 @@ body{
     font-size: 60px;
 
 }
+
+@media(max-width: 400px){
+    .game{
+        width: 120px;
+        height: 120px;
+        background-color: rgba(240, 237, 237, 0.863);
+        
+        margin: 0 auto;
+    }
+    .pole{
+
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        float: left;
+        box-sizing: border-box;
+        
+    }
+}
