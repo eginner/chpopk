@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background-color: #ffffff5c;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.game{
+    width: 450px;
+    height: 450px;
+    background-color: rgba(240, 237, 237, 0.863);
+    
+    margin: 0 auto;
+}
+
+.pole{
+
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    float: left;
+    box-sizing: border-box;
+    
+}
+.tic{
+    font-size: 0;
+    background-image: url('img/git.png');
+    background-size: contain;
+}
+.nol{
+    font-size: 0;
+    background-image: url('img/lev.png'); 
+    background-size: contain;
+}
+
+.winner{
+    width: 1000px;
+    position: relative;
+    color:rgb(147, 3, 3);
+    top: 28px;
+     left: 189px; 
+    
+    
+}
+.text{
+    display: inline;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+
+}
